@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+	/*
+	CSS DO HEADER 
+	*/
+	#container-header {
+		color: white;
+		display: flex;
+		background-color: #0d6efd;
+	}
+	#nome-todolist {
+		         font-size: 19px;
+            padding-top: 25px;
+            margin-right: 63px;
+	}
+	#frase-header {
+		font-size: 12px;
+            padding-top: 18px;
+	}
+
+	/*
+	CSS DO MAIN 
+	*/
+	#container-main {
+	    padding-bottom: 60px;
+		color: white;
+		background-image: linear-gradient(to right, transparent 0%, #000 80%),
+			url(/TodoListApp/images/3d-illustration-pen-putting-blue-ticks-paper.jpg);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: auto;
+	}
+
+	#frase-main{
+	padding-top: 50px;
+		text-align: center;
+	}
+	
+	#botoes-cadastro{
+		padding-top: 20px;
+		padding-bottom: 50px;
+	}
+	
+	/*
+	CSS DO FOOTER 
+	*/
+	#container-footer{
+	color: white;
+	background-color: #024dbc;
+	}
+	
+	
+	#container-footer
+	#insta, #linke {
+		color: rgb(255, 255, 255);
+	}
+}
